@@ -19,10 +19,16 @@ export const Navbar = () => {
           <MdReorder />
         </button>
       </div>
-      <div className="links">
-        <Link to="/">Home</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/experience">Experience</Link>
+      <div className="links container px-4">
+        <Link to="/" className="text-gradient ">
+          Joe Akatsa
+        </Link>
+        <Link to="/projects" className="text-gradient">
+          Projects
+        </Link>
+        <Link to="/experience" className="text-gradient ">
+          Resume
+        </Link>
       </div>
     </div>
   );
