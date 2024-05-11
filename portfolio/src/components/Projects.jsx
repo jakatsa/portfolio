@@ -12,6 +12,12 @@ export const Projects = () => {
               </h1>
             </div>
             <div className="row gx-5 justify-content-center">
+               <ProjectCard
+                title="PataPic"
+                description="I had the honor of working with Vincent, a creative FreeLance photographer owner of PataPic. I enjoyed working on this and contributing to the dreams of another young person. This image portfolio is subtle yet captivating.
+                This project was created using wordpress CMS"
+                liveLink="https://patapic.site/wp/"
+              />
               {/* Project Cards */}
               <ProjectCard
                 title="React Contact Manager"
@@ -37,16 +43,8 @@ export const Projects = () => {
                 liveLink="https://ecommerce-frontend-iota-woad.vercel.app/"
                 githubLink="https://github.com/jakatsa/ecommerce-frontend"
               />
-              <ProjectCard
-                title="PataPic"
-                description="I had the honor of working with Vincent, a creative FreeLance photographer owner of PataPic. I enjoyed working on this and contributing to the dreams of another young person. This image portfolio is subtle yet captivating."
-                liveLink="https://patapic.site/wp/"
-              />
-              <ProjectCard
-                title="Mia Nane Studios"
-                description="I had the pleasure of working with Mia Nane Studios. A creative hub made up of three brilliant artists who wear their hearts on their sleeves. I am glad to have had the honor of helping these young men change the world."
-                liveLink="https://mianane.com/"
-              />
+            
+             
               <ProjectCard
                 title="React travel journal"
                 description="The second Scrimba React solo project builds on the knowledge gained by the first. It then introduces working with props, using a data page containing an array of objects, and using the JavaScript map method to render components."
