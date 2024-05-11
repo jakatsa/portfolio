@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import "../styles/Home.css";
 export const Home = () => {
   return (
@@ -218,7 +219,13 @@ export const Home = () => {
                   applications
                 </p>
                 <div className="d-flex justify-content-center fs-2 gap-4">
-                  <FaLinkedin />
+                  <Link to="https://www.linkedin.com/in/joe-akatsa-b49288239/">
+                    <FaLinkedin />
+                  </Link>
+
+                  <Link to="https://github.com/jakatsa">
+                    <FaGithub />
+                  </Link>
                 </div>
               </div>
             </div>
