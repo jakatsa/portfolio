@@ -51,26 +51,31 @@ export const Projects = () => {
                 title="React travel journal"
                 description="The second Scrimba React solo project builds on the knowledge gained by the first. It then introduces working with props, using a data page containing an array of objects, and using the JavaScript map method to render components."
                 liveLink="https://reacttraveljournal.netlify.app/"
+                githubLink="https://github.com/jakatsa/traveljournal"
               />
               <ProjectCard
                 title="BlackJack Game"
                 description="The game is meant to be played by clicking a 'New Card' button, which invokes the newCard() function, and it displays messages and updates the card and sum accordingly. The goal is to get as close to 21 without going over it and to achieve blackjack when the sum is exactly 21. If the player's sum exceeds 21, they are 'out of the game.'"
                 liveLink="https://cqvtkluh62xbo7adaiqcba.on.drv.tw/www.BlackJack%20Game.com/"
+                githubLink="https://github.com/jakatsa/blackjackgame"
               />
               <ProjectCard
                 title="WeatherMate"
                 description="This project shows the use of web APIs which pulls information from a weather website. The next step is to create an API that pulls music from Spotify."
                 liveLink="https://cqvtkluh62xbo7adaiqcba.on.drv.tw/www.weatherapp.com/weather%20app/"
+                githubLink="https://github.com/jakatsa/weathermate"
               />
               <ProjectCard
                 title="BasketBall ScorerBoard"
                 description="This project basically covers the fundamentals of JavaScript such as manipulation of the DOM."
                 liveLink="https://dashing-maamoul-25b2f4.netlify.app/"
+                githubLink="https://github.com/jakatsa/BasketBall-Score-board"
               />
               <ProjectCard
                 title="E-mail Validation Form"
                 description="Introducing my Email and Password Validator, a handy JavaScript tool that ensures the accuracy and security of user credentials. This project uses the JavaScript concept of regular expressions to create the validator."
                 liveLink="https://cqvtkluh62xbo7adaiqcba.on.drv.tw/www.E-mail%20validation.com/"
+                githubLink="https://github.com/jakatsa/Email-Validation-Form"
               />
               <ProjectCard
                 title="To-Do List"
