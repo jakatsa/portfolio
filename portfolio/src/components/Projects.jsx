@@ -21,8 +21,8 @@ export const Projects = () => {
               {/* Project Cards */}
               <ProjectCard
                 title="React Contact Manager"
-                description="ContactBook is a lightweight contact manager application built with React, designed to simplify the process of storing and managing contacts directly within the browser."
-                liveLink="https://joescontactbook.netlify.app/"
+                description="ContactBook is a lightweight contact manager application built with React, designed to simplify the process of storing and managing contacts directly within the browser.The application has also been dockerized"
+                liveLink="https://contactmanager-93ih.vercel.app/"
                 githubLink="https://github.com/jakatsa/contactmanager"
               />
               <ProjectCard
