@@ -53,7 +53,8 @@ export const Projects = () => {
 
               <ProjectCard
                 title="Flatacuties"
-                description="This application is a simple web-based interface to display a list of characters fetched from a server using html and javascript. Each character is represented by a button, and clicking on a button reveals the character's details, including their name, image, and vote count. Additionally, users can remove the character details display by clicking a remove button"
+                description="This application is a simple web-based interface to display a list of characters fetched from a server using html and javascript. Each character is represented by a button, and clicking on a button reveals the character's details, including their name, image, and vote count. 
+                Additionally, users can remove the character details display by clicking a remove button.NB please ensure you run the db.json using json-server --watch db.json"
                 liveLink="https://flatacuties-rust.vercel.app/"
                 githubLink="https://github.com/jakatsa/flatacuties"
               />
