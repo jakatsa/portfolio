@@ -12,7 +12,7 @@ export const Projects = () => {
               </h1>
             </div>
             <div className="row gx-5 justify-content-center">
-               <ProjectCard
+              <ProjectCard
                 title="PataPic"
                 description="I had the honor of working with Vincent, a creative FreeLance photographer owner of PataPic. I enjoyed working on this and contributing to the dreams of another young person. This image portfolio is subtle yet captivating.
                 This project was created using wordpress CMS"
@@ -43,14 +43,21 @@ export const Projects = () => {
                 liveLink="https://ecommerce-frontend-iota-woad.vercel.app/"
                 githubLink="https://github.com/jakatsa/ecommerce-frontend"
               />
-            
-             
+
               <ProjectCard
                 title="React travel journal"
                 description="The second Scrimba React solo project builds on the knowledge gained by the first. It then introduces working with props, using a data page containing an array of objects, and using the JavaScript map method to render components."
                 liveLink="https://reacttraveljournal.netlify.app/"
                 githubLink="https://github.com/jakatsa/traveljournal"
               />
+
+              <ProjectCard
+                title="Flatacuties"
+                description="This application is a simple web-based interface to display a list of characters fetched from a server using html and javascript. Each character is represented by a button, and clicking on a button reveals the character's details, including their name, image, and vote count. Additionally, users can remove the character details display by clicking a remove button"
+                liveLink="https://flatacuties-rust.vercel.app/"
+                githubLink="https://github.com/jakatsa/flatacuties"
+              />
+
               <ProjectCard
                 title="BlackJack Game"
                 description="The game is meant to be played by clicking a 'New Card' button, which invokes the newCard() function, and it displays messages and updates the card and sum accordingly. The goal is to get as close to 21 without going over it and to achieve blackjack when the sum is exactly 21. If the player's sum exceeds 21, they are 'out of the game.'"
